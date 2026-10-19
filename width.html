@@ -1,38 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arranging the Widths</title>
-    <link rel="stylesheet" href="widths.css">
+    <link rel="stylesheet" href="arranging-the-widths.css">
 </head>
 <body>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Rent Audi Vehicles</legend>
 
-    <main>
-        <h1>Register</h1>
+            <div class="field-group">
+                <label for="name">Named</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
 
-        <form action="#" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username"
-                   placeholder="Username" required>
+            <div class="field-group">
+                <label for="vehicle">Select</label>
+                <select id="vehicle" name="vehicle">
+                    <option value="audi-80">Audi 80</option>
+                </select>
+            </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"
-                   placeholder="Email address" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password"
-                   placeholder="Password" required>
-
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password"
-                   name="confirm-password"
-                   placeholder="Confirm password" required>
-
-            <input type="submit" value="Create Account">
-        </form>
-    </main>
-
+            <div class="field-group">
+                <label>Select</label>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>
