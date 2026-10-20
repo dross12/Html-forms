@@ -31,10 +31,10 @@ body {
 /* Main beige panel */
 main {
     position: relative;
-    width: 385px;
+    width: 470px;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 35px 39px 45px;
+    margin: 50px auto 0;
+    padding: 50px 60px 70px 60px;
     background: #d5c395;
 }
 
